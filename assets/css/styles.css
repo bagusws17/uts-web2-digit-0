@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Outfit";
+	src: url("../fonts/Outfit-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #33333333;
+	color: black;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.mb-6 {
+	margin-bottom: 6rem !important;
+}
